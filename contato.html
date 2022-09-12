@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contate-me</title>
+</head>
+<body>
+  <h2>Contatos</h2>
+  <br>
+  <table>
+    <tbody align="center">
+    <tr>
+      <td>Whatsapp</td>
+      <td>21 9 7154-0931</td>
+    </tr>
+    <tr>
+      <td>E-mail</td>
+      <td>emanuelfreire12@gmail.com</td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+<hr>
+<p><strong>Ou se preferir, me deixe uma mensagem!</strong></p>
+<form action="mailto:emanuelfreire12@gmail.com" method="post" enctype="text/plain">
+  <table>
+    <tbody align="center">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <label for="nome">Seu nome</label>
+              </td>
+              <td>
+                <input type="text" name="nome" required>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <label for="sad">😢</label>
+                <input type="checkbox" name="sad">
+              </td>
+              <td>
+                <label for="happy">😄</label>
+                <input type="checkbox" name="happy">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <div>
+    <textarea name="mensagem" rows="5" cols="35" placeholder="Me escreva sua mensagem!"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Enviar!">
+  </div>
+</form>
+</html>
