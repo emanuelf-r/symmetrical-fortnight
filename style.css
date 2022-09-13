@@ -2,11 +2,13 @@ body {
   background-color: #D7C0AE;
   color: #2C3639;
   font: italic small-caps bold 15px/1.5 cursive;
+  padding-top: 5px;
+  padding-bottom: 50px;
 }
 hr {
   border-color: #EEE3CB;
   border-style: dotted;
-  width: 7%;
+  width: 50%;
   border-width: thick;
   border-bottom: none;
 }
@@ -15,12 +17,12 @@ h1 {
   position: relative;
 }
 .titulo {
-  position: relative;
+position: relative;
   left: 20px;
 }
 .foto {
   float: left;
-  position: relative;
+position: relative;
   top: -18px;
 }
 h2 {
@@ -41,4 +43,7 @@ h6 {
 a {
   text-decoration: none;
   color: brown;
+}
+.pri{
+  margin-bottom: 51px;
 }
