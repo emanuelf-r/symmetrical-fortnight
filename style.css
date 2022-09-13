@@ -1,7 +1,7 @@
 body {
   background-color: #D7C0AE;
   color: #2C3639;
-  font: small-caps bold 15px/1.5 cursive;
+  font: small-caps bold 14px/1.6 cursive;
   padding-top: 5px;
   padding-bottom: 50px;
 
@@ -10,10 +10,9 @@ body {
 hr {
   border-color: #EEE3CB;
   border-style: dotted;
-  width: 55%;
+  width: 100%;
   border-width: thick;
   border-bottom: none;
-  margin-left: 5px;
 }
 
 h1 {
