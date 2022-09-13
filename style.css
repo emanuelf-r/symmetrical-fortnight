@@ -1,17 +1,19 @@
 body {
   background-color: #D7C0AE;
   color: #2C3639;
-  font: italic small-caps bold 15px/1.5 cursive;
+  font: italic bold 15px/1.5 cursive;
   padding-top: 5px;
   padding-bottom: 50px;
+
 }
 
 hr {
   border-color: #EEE3CB;
   border-style: dotted;
-  width: 50%;
+  width: 55%;
   border-width: thick;
   border-bottom: none;
+  margin-left: 5px;
 }
 
 h1 {
@@ -32,6 +34,7 @@ h1 {
 
 h2 {
   color: #614124;
+  text-align: center;
 }
 
 h3 {
