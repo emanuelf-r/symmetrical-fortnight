@@ -5,6 +5,7 @@ body {
   padding-top: 5px;
   padding-bottom: 50px;
 }
+
 hr {
   border-color: #EEE3CB;
   border-style: dotted;
@@ -12,38 +13,48 @@ hr {
   border-width: thick;
   border-bottom: none;
 }
+
 h1 {
   color: #614124;
   position: relative;
 }
+
 .titulo {
-position: relative;
+  position: relative;
   left: 20px;
 }
+
 .foto {
   float: left;
-position: relative;
+  position: relative;
   top: -18px;
 }
+
 h2 {
   color: #614124;
 }
+
 h3 {
   color: #614124;
 }
+
 h4 {
   color: #614124;
 }
+
 h5 {
   color: #614124;
 }
+
 h6 {
   color: #614124;
 }
+
 a {
   text-decoration: none;
-  color: brown;
+  color: #7a2f09;
 }
-.pri{
+
+.pri {
   margin-bottom: 51px;
 }
